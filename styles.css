@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+header{
+    height: 140px;
+    width: 100%;
+    background-color: rgba(32, 81, 97, 1);
+}
+.logoimg{
+    margin: 20px 18px 0 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.headtxt{
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+.desctxt{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -168px;
+    margin-top: -235px;
+    color: rgb(255, 255, 255);
+
+}
+
+nav{
+    float: right;
+    margin: 20px 250px 0 0;
+    font-size: 20px;
+}
+body{
+    background-image: url('imgs/background.jpg');
+    background-size: contain;
+}
+.links{
+    margin: 40px 0 0 -80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+li{
+    display: inline;
+    margin: 20px 0 0 30px;   
+}
+a{
+    color: rgba(0,0,0,1);
+}
+a:hover{
+    color:whitesmoke;
+}
+ 
+.cont1{
+    margin: 55px 0 0 250px;
+    height: 350px;
+    width: 850px;
+    display: inline-block;
+    border-radius: 2px solid black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 15px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont1>p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px;
+    
+}
+.cont1>h1{
+    font-family: 'Gemunu Libre', cursive;
+    margin: 20px;
+    font-size: 35px;
+    color: #205161da;
+    text-align: center;
+
+}
+.cont1>img{
+    height: "200px";
+    width: "352px";
+
+}
